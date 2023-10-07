@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-dO</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="Container">
+        <h1 class="row">TO-DO LIST</h1>
+        <h6>to delete task ,click on the task to be deleted </h6>
+        <br><br>
+        <div class="row">
+            <form><div class="input-grp">
+                <input type="text" placeholder="todo-item" id="box" style="width: 30vw;">
+            </div>
+        <br>
+        <div class="form-grp"><input type="button" value="Add" onclick="add_item()"></div></form>
+        </div>
+        <div class="row">
+            <ul id="List_items"></ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
